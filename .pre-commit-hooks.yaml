@@ -98,3 +98,8 @@
   entry: run-api-doc.sh
   language: 'script'
   description: 'Runs `apidoc`, requires apidoc'
+- id: go-generate
+  name: 'go-generate'
+  entry: run-generate.sh
+  language: 'script'
+  description: 'Runs `go generate`, requires golang'
